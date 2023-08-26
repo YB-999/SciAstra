@@ -1,0 +1,29 @@
+
+  .mentor_card {
+    border: none;
+    height: 100%;
+}
+  .mentor_container h2{
+    font-size: 3rem;
+    padding: 20px;
+    margin: 20px auto;
+    text-align: center;
+    font-family: var(--font-name);
+  }
+  
+  .mentor-img {
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    border-radius: 50%;
+    overflow: hidden;
+  }
+
+  .mentor_body{
+    font-family: var(--font-name);
+    font-size: 1.25rem;
+    text-align: center;
+  }
+  .mentor_body .card-text{
+    font-size: 1rem;
+  }

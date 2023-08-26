@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Island+Moments&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Tangerine:wght@700&display=swap");
+
+
+:root {
+  --primary-color: #0D5C75;
+  --secondary-color: #199FB1;
+  --heading-color: #0b2727;
+  --text-color: #6e7074;
+  --font-name: "Montserrat", sans-serif;
+  --subtitle-font-name: 'Tangerine', cursive;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-name);
+}
+
+section {
+  padding: 50px 0px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--heading-color);
+}
+
+a {
+  text-decoration: none;
+  color: unset;
+}
+ul {
+  list-style: none;
+}
+
+.primary__btn {
+  background: var(--primary-color) !important;
+  border: none !important;
+  border-radius: 50px !important;
+  padding: 0.4rem 1.5rem !important;
+  font-weight: 600 !important;
+}
+
+.primary__btn:hover {
+  font-size: 1.1rem;
+  text-decoration: none;
+  background: var(--secondary-color) !important;
+  
+}
+.secondary__btn {
+  background: transparent !important;
+  color: #0D5C75 !important;
+  border: none !important;
+  font-weight: 700 !important;
+}
+
+
+@media screen and (max-width: 992px) {
+
+
+  .primary__btn,.secondary__btn,.dark-btn{
+    padding: 0.2rem 1.1 rem !important;
+  }
+
+  section {
+    padding: 40px 0;
+  }
+}
+
+
+
+
+html, body {
+  overflow-x: hidden;
+  width: 100%;
+}

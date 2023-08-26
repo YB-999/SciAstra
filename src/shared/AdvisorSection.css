@@ -1,0 +1,29 @@
+
+.advisor_card {
+  border: none;
+  height: 100%;
+}
+.advisor_container h2{
+  font-size: 3rem;
+  padding: 20px;
+  margin: 20px auto;
+  font-family: var(--font-name);
+  text-align: center;
+}
+
+.advisor-img {
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.advisor_body{
+  font-family: var(--font-name);
+  font-size: 1.25rem;
+  text-align: center;
+}
+.advisor_body .card-text{
+  font-size: 1rem;
+}

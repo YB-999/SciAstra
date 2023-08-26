@@ -1,0 +1,10 @@
+.mentor_section{
+    background-image: url(../assets/space.jpg);
+    background-size: contain;
+}
+
+.mentor_page{
+    background-color: white;
+    border-radius: 30px;
+    padding: 20px;
+}
